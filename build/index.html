@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta lang="ru">
+        <meta name="autor" content="Жесткова Виолетта"><!--Метаданные-->
+        <meta name="description" content="сайт команды разработчиков"> 
+        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"><!--Иконка-->
+        <link rel="stylesheet" href="css/styles.css"><!--Стили-->
+        <title>1.kla$</title><!--Название-->
+    </head>
+    <body>
+        <header>
+            <nav class="head_nav">
+                <ul> 
+                    <li><a href="">HARON</a></li>
+                    <li><a href="">БУДУЩИЕ ПРОЕКТЫ</a></li>
+                    <li><a href="">МЕРЧ</a></li>
+                    <li><a href="">О КОМАНДЕ</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <h1>Мы маленькая команда с большими амбициями</h1>
+            <article>
+                <figure class="right">
+                    <figcaption class="right"><em>Покупайте хадекхмм то есть <strong>HARON</strong>! Эксклюзив, эта игра одна такая в мире.</em></figcaption>
+                    <img src="img/haron.png" class="image_haron" alt="HARON" ><!--Изображение-->
+                </figure>
+
+                <table class="game_table">
+                    <caption>☺Наши проекты☺</caption>
+                    <thead>
+                        <tr>
+                            <th>Game</th>
+                            <th>Description</th>
+                            <th>Year</th>  
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th>Haron</th>
+                            <th>Я хз как все дошло до этого. А ведь это могли быть
+                                гонки или даже змейка</th>
+                            <th>2023</th>  
+                        </tr>
+                        <tr>
+                            <th>UE-Project</th>
+                            <th>Мистический детектив. Ну хоть не визуальная новелла.</th>
+                            <th>2024</th>  
+                        </tr>
+                        <tr>
+                            <th>Cлавянский рогалик</th>
+                            <th>Cлавянский рогалик</th>
+                            <th>Cлавянский рогалик</th>  
+                        </tr>
+                    </tbody>
+                </table>
+            </article>
+
+<!-- Таблица-->
+            <table>
+                <colgroup>
+                    <col span="5">
+                    <col span="5" class="dark_col">
+                  </colgroup>
+                <caption>Таблица для практики</caption>
+                <thead>
+                    <tr>
+                        <th rowspan="4">№</th>
+                        <th rowspan="4">Наименование дисциплин</th>
+                        <th colspan="2" rowspan="2">Распределение по семестрам</th>
+                        <th colspan="7">Объем работы</th>
+                    </tr>
+                    <tr>
+                        <th rowspan="3">Всего часов</th>
+                        <th colspan="5">С преподователем</th>
+                        <th rowspan="3">Самостоятнльныя работа</th>
+                    </tr>
+                    <tr>
+                        <th rowspan="2">Экзамен</th>
+                        <th rowspan="2">Зачет</th>
+                        <th colspan="4">Аудиторные занятия</th>
+                        <th rowspan="2">Индивидуальыне занятия</th>
+                    </tr>
+                    <tr>
+                        <th>Всего</th>
+                        <th>Лекции</th>
+                        <th>Лабороторные занятия</th>
+                        <th>Практические занятия</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Информатика</td>
+                        <td>2</td>
+                        <td>1</td>
+                        <td>232</td>
+                        <td>136</td>
+                        <td>34</td>
+                        <td>102</td>
+                        <td>-</td>
+                        <td>30</td>
+                        <td>66</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Теория управления</td>
+                        <td>6</td>
+                        <td>5</td>
+                        <td>300</td>
+                        <td>200</td>
+                        <td>50</td>
+                        <td>50</td>
+                        <td>50</td>
+                        <td>50</td>
+                        <td>100</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <th colspan="4">Всего(ч):</th>
+                        <td>532</td>
+                        <td>336</td>
+                        <td>84</td>
+                        <td>152</td>
+                        <td>50</td>
+                        <td>80</td>
+                        <td>166</td>
+                    </tr>
+                </tfoot>
+            </table>
+
+
+<!-- Форма-->
+            <form id="userform"> 
+                <p><em>Пожалуйста, заполните форму. Обязательные поля отмечены <span>*</span></em>.</p>
+                <fieldset>
+                    <legend>Login form:</legend>
+                    
+                        <label for="uname">Username<span title="Это обязательное поле">*</span>:</label>
+                        <input type="text" id="uname" name="uname" required>
+                        <label for="pass">Password<span title="Это обязательное поле">*</span>:</label>
+                        <input type="password" id="pass" name="pass" required><br>
+                </fieldset>
+                <fieldset>
+                    <legend>Other info:</legend>
+                    <label for="email-id">Email ID:</label>
+                    <input type="email" id="email-id" name="email-id">
+                    <label for="num">Phone number:</label>
+                    <input type="tel" id="num" name="num"><br>
+                    <label for="bday">Birthday:</label>
+                    <input type="date" id="bday" name="bday">
+                    <label for="game_choice">Сhoose a game:</label>
+                    <select id="game_choice">
+                        <optgroup label="Выберете игру!">
+                            <option>Haron</option>
+                            <option>UE-Project</option>
+                        </optgroup>
+                        <optgroup label="Скоро!" disabled>
+                            <option>славянскийрогаликславянский</option>
+                        </optgroup>
+                    </select>
+                </fieldset>
+                <button type="submit" form="userform">Login</button>
+            </form>
+            
+        </main>
+        <footer>
+            <nav class="foot_nav">
+                <ul> 
+                    <li><a href="">HARON</a></li>
+                    <li><a href="">БУДУЩИЕ ПРОЕКТЫ</a></li>
+                    <li><a href="">МЕРЧ</a></li>
+                    <li><a href="">О КОМАНДЕ</a></li>
+                </ul>
+                <p>(C) 2023-2024, 1.kla$</p>
+                <p>Обратная связь: letta_02@mail.ru</p>
+                
+            </nav>
+        </footer>
+    </body>
+</html>
