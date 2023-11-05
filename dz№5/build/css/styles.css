@@ -1,0 +1,102 @@
+body{
+    height: 50000;
+}
+div + p {
+    background-color: lightblue;
+}
+
+a:link{
+    color:blueviolet;
+}
+a:visited {
+    color: red;
+}
+a:hover{
+    color: green;
+}
+a:active{
+    color: coral;
+}
+
+p:first-child{
+    color: red;
+}
+
+p i:first-child{
+    color: blueviolet;
+}
+p:first-child i{
+    text-decoration: underline;
+}
+
+ul{
+    color: black;
+    font-weight: normal;
+}
+ul.fc li:first-child {
+    color: red;
+    font-weight: bold;
+}
+ul.lc li:last-child {
+    color: rgba(73, 23, 255, 0.523);
+    font-weight: bold;
+}
+
+/* ul.lc li:last-child {
+    color: rgba(0, 60, 255, 0.468);
+    text-decoration: underline;
+} */
+
+span,
+div em {
+  padding: 5px;
+  border: 1px solid green;
+  display: inline-block;
+  margin-bottom: 3px;
+}
+
+.first span:nth-child(2n + 1), .second span:nth-child(2n + 1){
+  background-color: lime;
+}
+p::after{
+    content: "MOXMOXMOX";
+    color: green;
+}
+
+#fl::first-line { 
+    color: blue;   
+}
+
+#special{
+    background-color: yellow;
+}
+.alert{
+    border: gray solid 1px ;
+}
+.go.alert{
+    background-color: green;
+}
+.stop.alert{
+    background-color: red;
+}
+
+.container1{
+    background-color: beige;
+}
+
+div.container1 h1{
+    color: blue;
+}
+div.container1 h2{
+    background-color: blue;
+    color: white
+}
+div.container1 #big{
+    font-size: 200%;
+}
+
+tbody tr:nth-child(2n+1){
+    color: red;
+}
+
+

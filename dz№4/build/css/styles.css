@@ -1,0 +1,122 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+header, main, section, footer, aside, article, nav{
+    display: block;
+}
+
+#its_div{
+    width: 980px;
+    padding: 15px auto;
+    text-align: left;
+}
+
+#its_header{
+    margin: 20px;
+    border: 1px solid black;
+    background-color: gray;
+}
+#its_nav{
+    margin: 10px;
+    background-color: gray;
+}
+li{
+    display: inline;
+}
+#its_section1{
+    width: 660px;/* фактическая ширина 700px*/
+    float: left;
+    padding: 20px; 
+}
+
+#its_aside{
+    width: 220px;/* фактическая ширина 260px*/
+    padding: 15px 0px;
+    margin: 20px; 
+    background-color: gray;
+    float: left;
+}
+#its_footer{
+    text-align: center;
+    border-top: 2px solid black;
+    margin: 20px;
+    clear: both;
+}
+
+
+.exp1{
+    padding: 30px;
+    border: 40px solid red;
+    width: 330px;  
+    box-sizing: border-box;
+}
+.exp2{
+    border: 40px solid red;
+    width: 330px;  
+    box-sizing: border-box;
+}
+.exp3{
+    padding: 13px 10px 5px 0px;
+    border: 5px solid red;
+}
+.exp4{
+    padding: 20px 10px;
+    border: 5px solid red;
+}
+.exp5{
+    padding: 30px;
+    border: 5px solid red;
+}
+body{
+    text-align: center;
+}
+img{
+    display: block;
+    margin: 0 auto;
+    width: 100px;
+}
+div{
+    margin-bottom: 20px;
+}
+.sp1{
+    padding: 10px;
+    border: 2px solid black;
+    background: grey;
+}
+.sp2{
+    padding: 10px;
+    margin: 20px;
+    background: grey;
+    border: 2px solid black;
+}
+.sp3{
+    display: inline-block;
+    padding: 10px;
+    border: 2px solid black;
+    background: grey;
+    
+}
+
+h2{
+    margin-bottom: 20px;
+    margin-top: 10px;
+    padding: 10px;
+    border: 2px solid black;
+}
+p.shlop{
+    margin-top: 10px;
+    padding: 10px;
+    border: 2px solid black;
+}
+p.shlop2{
+    margin-top: -15px;
+    padding: 10px;
+    border: 2px solid black;
+}
+p.shlop3{
+    margin-top: -35px;
+    padding: 10px;
+    border: 2px solid black;
+}

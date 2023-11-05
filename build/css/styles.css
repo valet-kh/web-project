@@ -132,7 +132,7 @@ a[href]{
     color: rgb(142, 26, 26);
 }
 
-input[required]{
+input[type="text"]{
     border: 1px solid red;
 }
 
