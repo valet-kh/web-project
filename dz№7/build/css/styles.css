@@ -3,9 +3,7 @@
     font-style: normal;
     font-weight: 400;
     /* Браузер сначала попробует найти шрифт локально */
-    src: local("Greeka"),
-         /* Если не получилось, загрузит woff2 */
-         url("/fonts/greekatygra.ttf") format("ttf")
+    src: url("../fonts/greekatygra.ttf") format("ttf")
   }
 
 body{
