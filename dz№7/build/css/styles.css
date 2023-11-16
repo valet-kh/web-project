@@ -1,0 +1,142 @@
+
+
+body{
+    font-family: 'greekatygra', sans-serif;
+}
+.nav_head a {
+    font-family: 'greekatygra', sans-serif;
+    font-size: 1.2em;
+    color: aliceblue;
+}
+section{
+    padding: 30px 100px;
+    margin: 0;
+}
+.col{
+    padding: 0 30px ;
+}
+.row{
+    padding: 20px 0;
+}
+.btn_d{
+    display: block;
+    background-color:rgb(116, 43, 226);
+    width: 200px;
+    margin: 10px auto;
+    color: #fff;
+}
+.btn_d:hover{
+    color: black;
+    background-color:rgb(226, 43, 101);
+}
+.dropdown-menu{
+    background-color: rgb(97, 38, 185);
+}
+
+.nav_head{
+    background-color: rgb(97, 38, 185);
+    color: aliceblue;
+}
+
+.align-justify{
+    text-align: justify;
+}
+
+.carousel{
+    width: 70%;
+    margin: 10px auto;
+}
+
+#haron{
+    background: linear-gradient(to bottom,  rgb(97, 38, 185) 0%, antiquewhite 100%);
+}
+#title_haron{
+    color: aliceblue;
+}
+#world{
+    background: linear-gradient(to bottom, #ffffff 0%, antiquewhite 100%);
+}
+#haron_facts{
+    background: linear-gradient(to top, #ffffff 0%, antiquewhite 100%);
+    background: url("../img/Charon_old.webp") no-repeat top right; 
+    height: 800px;
+}
+.accordion-button:focus {
+    box-shadow: none;
+}
+.accordion-item{
+    background-color: rgba(226, 43, 101, 0.258);
+}
+.accordion-button{
+    background-color:rgb(97, 38, 185);
+}
+.accordion-button:not(.collapsed){
+    background-color: rgb(226, 43, 101);
+}
+
+#cit{
+    height: 130px;
+}
+.blockquote-footer{
+    margin-top: -10px;
+    float: right;
+}
+.scr{
+    display:inline-block;
+    height: 500px;
+    margin-left: 75px;
+    overflow-y: scroll;
+}
+#accordionExample{
+    margin-left: 75px;
+}
+#im_har{
+    height: 65em;
+    margin-top: -160px;
+    padding-left: 50px ;
+}
+
+/* #family{
+    background: linear-gradient(to bottom,antiquewhite 0%, #ffffff 99%);
+} */
+#col_f{
+    padding-top: 70px
+}
+.list-group-item{
+    width: 80%;
+    background-color: rgb(97, 38, 185);
+    border-color: rgb(97, 38, 185);
+    color: aliceblue;
+    padding: 50px 0;
+    text-align: center;
+}
+.list-group-item.active {
+    background-color:rgb(226, 43, 101); 
+    border-color: rgb(226, 43, 101); 
+}
+
+.btn-primary{
+    background-color:rgb(97, 38, 185);
+    border-color: rgb(97, 38, 185);
+}
+.btn-primary:hover{
+    color: black;
+    background-color:rgb(226, 43, 101);
+    border-color: rgb(226, 43, 101);
+}
+#bglast{
+    background: linear-gradient(to bottom,antiquewhite 0%, #fff 45%, #fff 55%, rgb(97, 38, 185) 99%);
+    /* background: linear-gradient(to bottom,antiquewhite 0%, #ffffff 99%); */
+}
+#footer{
+    height: 50px;
+    padding-left: 100px; 
+    background-color: rgb(97, 38, 185);
+}
+.breadcrumb-item a{
+    color: aliceblue;
+    text-decoration: none;
+}
+.breadcrumb-item.active{
+    color: rgb(226, 43, 101);
+}
