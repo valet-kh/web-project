@@ -315,7 +315,7 @@
                     <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel2" aria-hidden="true">
                       <div class="modal-dialog">
                       <div class="modal-content">
-                          <div class="modal-header">Спасибо за оценку!
+                          <div class="modal-header">Подписка на рассылку
                           <h1 class="modal-title fs-5" id="exampleModalLabel2"></h1>
                           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                           </div>
@@ -341,7 +341,7 @@
                     
                     <!-- Button trigger modal -->
                     <button type="button" class="btn btn_d btn-lg text-uppercase btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                        Поставить лайк
+                        Оценить
                     </button>
                     
                     <!-- Modal -->
@@ -368,16 +368,39 @@
             
         </main>
         <footer  id="footer">
-          <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
-            <ol class="breadcrumb">
-              <li class="breadcrumb-item"><a href="#">ГЛАВНАЯ</a></li>
-              <li class="breadcrumb-item"><a href="#">НАШИ ИГРЫ</a></li>
-              <li class="breadcrumb-item active" aria-current="page">ХАРОН</li>
-            </ol>
-          </nav>
-            
+          <div class="row">
+            <div class="col">
+              <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                  <li class="breadcrumb-item"><a href="#">ГЛАВНАЯ</a></li>
+                  <li class="breadcrumb-item"><a href="#">НАШИ ИГРЫ</a></li>
+                  <li class="breadcrumb-item active" aria-current="page">ХАРОН</li>
+                </ol>
+                </nav>
+            </div>
+            <div class="col align-center">
+                <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+                <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@1.16.1/dist/umd/popper.min.js"></script>
+                <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+                <script>
+                $(function () {
+                $('[data-bs-toggle="tooltip"]').tooltip()
+                })
+                </script>
+              
+              <button type="button" class="btn btn_q"  data-bs-toggle="tooltip" title="Подскажем!">
+                Остались вопросы?
+              </button>
+
+              
+
+              
+            </div>
+          </div>
         </footer>
+
         <script>
+          
           const alertPlaceholder = document.getElementById('liveAlertPlaceholder')
           const appendAlert = (message, type) => {
             const wrapper = document.createElement('div')
